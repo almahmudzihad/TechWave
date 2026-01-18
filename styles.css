@@ -130,3 +130,32 @@ body{
     width: 20px;
     margin-right: 10px;
 }
+
+
+
+/* about section */
+#about{
+    
+    margin: auto;
+    align-items: center;
+    background: #1a0b2e;
+    color: #ffffff;
+    
+}
+.about-content{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+.headLine{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.about-text p{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}

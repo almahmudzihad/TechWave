@@ -39,14 +39,94 @@ body{
 }
 .btn-primary{
     padding: 10px 20px;
-    background-color: #EA5773;
+    
     color: white;
     border: none;
     border-radius: 23px;
     cursor: pointer;
     font-size: 1rem;
     font-weight: 600;
+    background-image: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
 }
 .btn-primary:hover{
     background-color: #c4455c;
+}
+
+
+
+
+.banner{
+  
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-img{
+    position: relative;   
+}
+.hero-c{
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-m{
+     position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-txt{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-txt h1{
+    font-size: 3.75rem;
+    margin-bottom: 20px;
+    font-weight: 800;
+    color: white;
+}
+.hero-txt p{
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: white;
+}
+.btn-secondary{
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-image: linear-gradient(rgba(247, 233, 63, 1), rgba(251, 9, 180, 1), rgba(145, 0, 248, 1));
+}
+.btn-secondary:hover{
+    background-color: #c4455c;
+}
+..btn-secondary img{
+    width: 20px;
+    margin-right: 10px;
+}
+.btn-outline{
+    padding: 10px 20px;
+    color: #00ff88;
+    border: 2px solid #00ff88;
+    border-radius: 23px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    margin: 10px;
+}
+.btn-outline:hover{
+    background-color: #00ff88;
+    color: #c4455c;
+    
+}
+.btn-outline img{
+    width: 20px;
+    margin-right: 10px;
 }

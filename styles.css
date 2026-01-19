@@ -211,7 +211,7 @@ body{
 .feature-content{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(200px, 1fr);
+    grid-template-rows: repeat(150px, 1fr);
     gap: 30px;
 }
 .row2{
@@ -283,4 +283,47 @@ body{
     padding: 10px;
     cursor: pointer;
     margin-bottom: 20px;
+}
+
+    /* host section  */
+#host{
+    background-color: #1a0b2e; 
+    color: #ffffff;
+}
+.host-container{
+    max-width: 1200px;
+    margin: auto;
+    padding: 80px 20px;
+    text-align: center;
+}
+.host-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background: #250d44;
+    padding: 40px;
+    border-radius: 30px;
+}
+.host-text{
+    flex: 1;
+    text-align: left;
+}
+.host-text h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.host-text p{
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.icon img{
+    width: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid #533c72;
+    padding: 10px;
+    cursor: pointer;
 }

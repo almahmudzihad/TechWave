@@ -70,6 +70,22 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+.btn-div{
+    
+}
+.btn-new{
+    background: #00ff88;
+    color: #1a0b2e;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 31px;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 14%;
+    right: 40%;
+    transform: translate(-50%, -50%);
+
+}
 .hero-m{
      position: absolute;
     top: 33%;
@@ -158,4 +174,22 @@ body{
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: center;
+}
+.about-rating{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.about-card h3{
+    font-size: 4rem;
+    font-weight: 900;
+    color: #00ff88;
+    padding: 10px;
+}
+.about-card p{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #ffffff;
+    padding: 10px;
 }

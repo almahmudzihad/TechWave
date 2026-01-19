@@ -81,9 +81,11 @@ body{
     border-radius: 31px;
     font-size: 1.5rem;
     position: absolute;
-    top: 14%;
-    right: 40%;
+    top: 50%;
+    right: 50%;
     transform: translate(-50%, -50%);
+    cursor: pointer;
+    margin: -262px -225px 0px 0px;
 
 }
 .hero-m{

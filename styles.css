@@ -8,7 +8,7 @@ body{
 }
 .header{
     background-color: #1a0b2e;
-    color: whitesmoke;
+    color: #ffffff;
 }
 .bavbar{
     max-width: 1200px;
@@ -177,6 +177,7 @@ body{
     line-height: 1.6;
     margin-bottom: 20px;
     text-align: center;
+    padding: 10px;
 }
 .about-rating{
     display: grid;
@@ -373,3 +374,5 @@ body{
     font-weight: 400;
     padding-bottom: 50px;
 }
+
+

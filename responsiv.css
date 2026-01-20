@@ -1,0 +1,31 @@
+@media screen and (max-width: 576px) {
+    .bavbar ul, .btn-primary{
+        display: none;
+    }
+    .btn-box {
+    display: flex;
+    flex-direction: row;
+    }
+    .headLine{
+        font-size: 2.5rem;
+    }
+    .about-rating{
+        grid-template-columns: 1fr;
+    }
+    .about-card{
+    text-align: center;
+    }
+    .feature-content{
+        grid-template-columns: 1fr;
+    }
+    .video-content{
+        grid-template-columns: 1fr;
+    }
+    .host-content{
+        flex-direction: column;
+    }
+    .host-content{
+        text-align: center;
+    }
+
+}
